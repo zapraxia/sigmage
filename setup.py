@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='sigmage',
-    version='0.0.1.dev0',
+    version='0.0.1.dev1',
     author='Juho Kim, Hshmat Sahak',
     author_email='juho-kim@outlook.com',
     description='A package for signing images to mark original creator',
