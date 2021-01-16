@@ -1,6 +1,6 @@
 # sigmage
 ## Inspiration <br/>
-Many artists we know have complained that their work is being used without appropriate credit. For various reasons, people tend to oversee this when using images. Sigmage is a tool that ensures that images are signed, ensuring credit is given to creaters and privacy concerns are met. <br/><br/>
+Many artists we know have complained that their work is being used without appropriate credit as other people claim to be the original creaters. Sigmage is a tool that ensures that images are signed, ensuring privacy concerns are met, as we can access the signature associated with each image. <br/><br/>
 ## What it does<br/>
 Our solution is an app that signs images. You will be able to upload images through our web application and we will return a signed image. 
 <br/><br/>
