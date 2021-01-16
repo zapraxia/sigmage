@@ -6,8 +6,8 @@ setup(
     author='Juho Kim, Hshmat Sahak',
     author_email='juho-kim@outlook.com',
     description='A package for signing images to mark original creator',
-    long_description=open('README.rst', 'r').read(),
-    long_description_content_type='text/x-rst',
+    long_description=open('README.md', 'r').read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/Zapraxia/sigmage',
     packages=find_packages(),
     classifiers=[
