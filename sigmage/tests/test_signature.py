@@ -16,13 +16,13 @@ class MyTestCase(TestCase):
 
     signature = 'AussieSeaweed'
 
-    def test_png(self):
+    def test_png(self) -> None:
         self.assertIsNone(get_signature(self.png_input_path))
 
         set_signature(self.png_input_path, self.png_output_path, self.signature)
         self.assertEqual(get_signature(self.png_output_path), self.signature)
 
-    def test_jpg(self):
+    def test_jpg(self) -> None:
         self.assertIsNone(get_signature(self.jpg_input_path))
 
         self.assertRaises(ImageFormatException,

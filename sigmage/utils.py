@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, cast
 
 from stegano import lsb
 
@@ -11,7 +11,7 @@ def get_signature(input_image: str) -> Optional[str]:
     :param input_image: the input image path
     :return: the signature if the image is signed, else None
     """
-    return lsb.reveal(input_image)
+    return cast(str, lsb.reveal(input_image))
 
 
 def set_signature(input_image: str, output_image: str, signature: str) -> None:

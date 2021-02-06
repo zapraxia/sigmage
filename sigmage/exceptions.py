@@ -4,7 +4,7 @@ from abc import ABC
 class SigmageException(Exception, ABC):
     """SigmageException is the base class for all exceptions in sigmage."""
 
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__(self.__doc__)
 
 

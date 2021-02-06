@@ -5,10 +5,10 @@ with open('README.md', 'r') as long_description_file:
 
 setup(
     name='sigmage',
-    version='0.0.1.dev1',
+    version='0.0.1.dev2',
     author='Juho Kim, Hshmat Sahak',
     author_email='juho-kim@outlook.com',
-    description='A package for signing images to mark original creator',
+    description='A package for signing images to mark the original creators',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Zapraxia/sigmage',
