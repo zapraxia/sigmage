@@ -4,7 +4,7 @@ from pathlib import Path
 from sigmage import ImageFormatException, get_signature, set_signature
 
 
-class MyTestCase(TestCase):
+class SignatureTestCase(TestCase):
     BASE_DIR = Path(__file__).resolve().parent
 
     png_input_path = str(BASE_DIR / 'images/dies.png')
