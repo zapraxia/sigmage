@@ -5,7 +5,7 @@ with open('README.md', 'r') as long_description_file:
 
 setup(
     name='sigmage',
-    version='0.0.1.dev2',
+    version='0.0.1.dev3',
     author='Juho Kim, Hshmat Sahak',
     author_email='juho-kim@outlook.com',
     description='A package for signing images to mark the original creators',
