@@ -14,6 +14,11 @@ Sigmage is a Python package for signing images to mark the original creators.
 
    sigmage
 
+
+License
+-------
+`GNU GPLv3 <https://choosealicense.com/licenses/gpl-3.0/>`_
+
 Indices and tables
 ==================
 
