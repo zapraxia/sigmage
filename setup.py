@@ -1,16 +1,16 @@
 from setuptools import find_packages, setup
 
-with open('README.md', 'r') as long_description_file:
+with open('README.rst', 'r') as long_description_file:
     long_description = long_description_file.read()
 
 setup(
     name='sigmage',
     version='0.0.1.dev3',
-    author='Juho Kim, Hshmat Sahak',
+    author='Juho Kim et al.',
     author_email='juho-kim@outlook.com',
     description='A package for signing images to mark the original creators',
     long_description=long_description,
-    long_description_content_type='text/markdown',
+    long_description_content_type='text/x-rst',
     url='https://github.com/Zapraxia/sigmage',
     packages=find_packages(),
     classifiers=[
