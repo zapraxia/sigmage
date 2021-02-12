@@ -5,14 +5,15 @@ with open('README.rst', 'r') as long_description_file:
 
 setup(
     name='sigmage',
-    version='0.0.1.dev3',
+    version='0.0.1.dev4',
     author='Juho Kim et al.',
     author_email='juho-kim@outlook.com',
-    description='A package for signing images to mark the original creators',
+    description='A Python package for signing images to mark the original creators',
     long_description=long_description,
     long_description_content_type='text/x-rst',
     url='https://github.com/Zapraxia/sigmage',
     packages=find_packages(),
+    package_data={'sigmage': ['tests/images/dies.png', 'tests/images/jones.jpg']},
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
