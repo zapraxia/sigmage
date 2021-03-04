@@ -13,8 +13,8 @@ setup(
     long_description_content_type='text/x-rst',
     url='https://github.com/Zapraxia/sigmage',
     packages=find_packages(),
-    package_data={'sigmage': ['tests/images/dies.png', 'tests/images/jones.jpg']},
-    classifiers=[
+    package_data={'sigmage': ('tests/images/dies.png', 'tests/images/jones.jpg')},
+    classifiers=(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
@@ -23,7 +23,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
-    ],
+    ),
     python_requires='>=3.7',
-    install_requires=['stegano'],
+    install_requires='stegano',
 )
