@@ -1,4 +1,4 @@
-sigmage
+Sigmage
 =======
 
 Sigmage is a Python package for signing images to mark the original creators.

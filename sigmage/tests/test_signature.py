@@ -1,5 +1,5 @@
-from unittest import TestCase, main
 from pathlib import Path
+from unittest import TestCase, main
 
 from sigmage import ImageFormatException, get_signature, set_signature
 
