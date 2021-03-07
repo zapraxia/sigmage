@@ -1,6 +1,6 @@
 from typing import Optional, cast
 
-from stegano import lsb
+from stegano import lsb  # type: ignore
 
 from sigmage.exceptions import ImageFormatException
 
